@@ -11,5 +11,5 @@ updates:
   - "dependencies"
   - "automerge"
   commit-message:
-    prefix: "dependency update"
+    prefix: "dep"
     include: "scope"
