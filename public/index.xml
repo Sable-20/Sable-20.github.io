@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sable Ayala - University Student</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Sable Ayala - University Student</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 26 Jan 2025 16:11:10 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Math Typesetting</title>
+      <link>http://localhost:1313/blog/math_typesetting/</link>
+      <pubDate>Sun, 26 Jan 2025 16:11:10 +0000</pubDate>
+      <guid>http://localhost:1313/blog/math_typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Math Typesetting</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;test&#34;&gt;Test&lt;/h1&gt;&#xA;&lt;p&gt;$$&#xA;\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }&#xA;$$&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
