@@ -22,6 +22,28 @@ In this example we will be using [KaTeX](https://katex.org/)
 {{ end }}
 ```
 
+{{< highlight go "linenos=table,linenostart=1" >}}
+package main
+
+import (
+    "crypto/sha256"
+    "fmt"
+)
+
+func main() {
+    s := "sha256 this string"
+
+    h := sha256.New()
+
+    h.Write([]byte(s))
+
+    bs := h.Sum(nil)
+
+    fmt.Println(s)
+    fmt.Printf("%x\n", bs)
+}
+{{< /highlight >}}
+
 - To enable KaTex globally set the parameter `math` to `true` in a project's configuration
 - To enable KaTex on a per page basis include the parameter `math: true` in content files
 
