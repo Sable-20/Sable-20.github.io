@@ -1,7 +1,7 @@
 title = "Sable Ayala - University Student"
 baseURL = "https://sable-20.github.io"
 languageCode = "en-US"
-theme = "osprey-delight"
+theme = "osprey-delight-personal"
 tags = [ "personal", "homepage", "portfolio" ]
 disableKinds = [ "taxonomy" ]
 enableEmoji = true
