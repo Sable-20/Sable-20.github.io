@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Sable Ayala - University Student</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://sable-20.github.io/blog/</link>
     <description>Recent content in Posts on Sable Ayala - University Student</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 26 Jan 2025 16:11:10 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sable-20.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Math Typesetting</title>
-      <link>http://localhost:1313/blog/math_typesetting/</link>
+      <link>https://sable-20.github.io/blog/math_typesetting/</link>
       <pubDate>Sun, 26 Jan 2025 16:11:10 +0000</pubDate>
-      <guid>http://localhost:1313/blog/math_typesetting/</guid>
+      <guid>https://sable-20.github.io/blog/math_typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
   </channel>
