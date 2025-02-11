@@ -1,11 +1,16 @@
----
-author: Hugo Authors
-title: Math Typesetting
-date: 2019-03-08
-description: A brief guide to setup KaTeX
-math: true
-ShowBreadCrumbs: false
----
++++
+author = 'Sable Ayala'
+title = 'Math Typesetting'
+date = 2025-02-11 18:28:46
+description = "A brief guide to setup KaTeX"
+math = true
+ShowToc = true
+draft = false
+
+[Params]
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
++++
 
 Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
 
@@ -29,7 +34,6 @@ In this example we will be using [KaTeX](https://katex.org/)
 
 **Note:** Use the online reference of [Supported TeX Functions](https://katex.org/docs/supported.html)
 
-```html
 {{< math.inline >}}
 {{ if or .Page.Params.math .Site.Params.math }}
 
@@ -39,7 +43,7 @@ In this example we will be using [KaTeX](https://katex.org/)
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 {{ end }}
 {{</ math.inline >}}
-```
+
 
 ### Examples
 
