@@ -68,7 +68,6 @@
           
           delimiters: [
               {left: '$$', right: '$$', display: true},
-              {left: '$', right: '$', display: false},
               {left: '\\(', right: '\\)', display: false},
               {left: '\\[', right: '\\]', display: true}
           ],
@@ -121,8 +120,8 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="//localhost:1313/categories/" title="categories">
-                    <span>categories</span>
+                <a href="//localhost:1313/" title="home">
+                    <span>home</span>
                 </a>
             </li>
             <li>
@@ -131,14 +130,8 @@
                 </a>
             </li>
             <li>
-                <a href="https://example.org" title="example.org">
-                    <span>example.org</span>&nbsp;
-                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
-                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-                        <path d="M15 3h6v6"></path>
-                        <path d="M10 14L21 3"></path>
-                    </svg>
+                <a href="//localhost:1313/categories/" title="categories">
+                    <span>categories</span>
                 </a>
             </li>
         </ul>
@@ -181,21 +174,30 @@
 <li>Include the partial in your templates (<a href="../papermod/papermod-faq/#custom-head--footer"><code>extend_head.html</code></a>) like so:</li>
 <li>refer <a href="https://github.com/adityatelange/hugo-PaperMod/issues/236">ISSUE #236</a></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">{{</span> <span style="color:#66d9ef">if</span> or .Params.math .Site.Params.math <span style="color:#f92672">}}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">{{</span> partial <span style="color:#e6db74">&#34;math.html&#34;</span> . <span style="color:#f92672">}}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">{{</span> end <span style="color:#f92672">}}</span>
-</span></span></code></pre></div><ul>
+<div class="highlight"><div style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">{{</span> <span style="color:#ca9ee6">if</span> or .Params.math .Site.Params.math <span style="color:#99d1db;font-weight:bold">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">{{</span> partial <span style="color:#a6d189">&#34;math.html&#34;</span> . <span style="color:#99d1db;font-weight:bold">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db;font-weight:bold">{{</span> end <span style="color:#99d1db;font-weight:bold">}}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
 <li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
 <li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files</li>
 </ul>
 <p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
 
 <h3 id="examples">Examples<a hidden class="anchor" aria-hidden="true" href="#examples">#</a></h3>
-
+<p>Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}=1.6180339887..\)</p>
 <p>Block math:</p>
-<p>$$
-\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$</p>
+$$
+ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$
 
   </div>
 

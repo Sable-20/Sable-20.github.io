@@ -1,4 +1,4 @@
-base_url = 'https://example.org/'
+base_url = 'https://sable-20.github.io/'
 default_language = 'en-us'
 title = 'Sable Ayala | University Student'
 
@@ -7,39 +7,50 @@ theme = "PaperMod"
 [pagination]
 pagerSize = 5
 
-[markup.goldmark.renderer]
-unsafe = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
 
 [params]
 ShowReadingTime = true
 defaultTheme = "auto"
 ShowShareButtons = true
 
+[params.assets]
+disableHLJS = true
+
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+lineNos = true
+lineNumbersInTable = true
+tabWidth = 4
+style = 'catppuccin-frappe'
+
 [params.profileMode]
 enabled = true
-subtitle = "this is a subtitle"
+title = "Sable Ayala"
+subtitle = "Just another university student making their way through life."
 imageUrl = "https://avatars.githubusercontent.com/u/72171476?v=4"
 imageWidth = 120
 imageHeight = 120
 [[params.profileMode.buttons]]
 name = "Archive"
 url = "/archive"
-[[params.profileMode.buttons]]
-name = "Github"
-url = "https://github.com"
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/Sable-20"
-
-# [params.homeInfoParams]
-# title = "Hi there"
-# content = "can be info or links"
 
 [[menu.main]]
 identifier = "categories"
 name = "categories"
 url = "/categories/"
-weight = 10
+weight = 30
 
 [[menu.main]]
 identifier = "tags"
@@ -49,7 +60,7 @@ weight = 20
 
 [[menu.main]]
 identifier = "example"
-name = "example.org"
-url = "https://example.org"
-weight = 30
+name = "home"
+url = "/"
+weight = 10
 
