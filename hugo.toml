@@ -64,3 +64,7 @@ name = "home"
 url = "/"
 weight = 10
 
+[outputFormats]
+  [outputFormats.RSS]
+    mediaType = "application/rss+xml"
+    baseName = "rss"
