@@ -64,6 +64,12 @@ name = "home"
 url = "/"
 weight = 10
 
+[[menu.main]]
+identifier = "about"
+name = "about me"
+url = "/about"
+weight = 30
+
 [outputFormats]
   [outputFormats.RSS]
     mediaType = "application/rss+xml"
