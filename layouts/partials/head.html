@@ -147,7 +147,7 @@
 </noscript>
 
 {{ if or .Params.math .Site.Params.math }}
-{{ partial "math.html" . }}
+{{ partialCached "math.html" . }}
 {{ end }}
 
 {{- partial "extend_head.html" . -}}
