@@ -2,24 +2,127 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sable Ayala | University Student</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on Sable Ayala | University Student</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Feb 2025 18:28:46 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Me</title>
-      <link>//localhost:1313/about/</link>
+      <title></title>
+      <link>/about/</link>
       <pubDate>Tue, 11 Feb 2025 18:28:46 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
-      <description>A brief about me</description>
+      <guid>/about/</guid>
+      <description>&lt;h1 style=&#34;text-align: center&#34; class=&#34;namer&#34;&gt;&lt;/h1&gt;
+&lt;script&gt;
+const instance = new TypeIt(&#34;.namer&#34;, { 
+    lifeLike: false, 
+    speed: 0 
+})
+	.type(&#34;S&#34;)
+	.pause(199)
+	.type(&#34;a&#34;)
+	.pause(79)
+	.type(&#34;b&#34;)
+	.pause(124)
+	.type(&#34;e&#34;)
+	.pause(59)
+	.type(&#34;l&#34;)
+	.pause(255)
+	.delete(1)
+	.pause(115)
+	.delete(1)
+	.pause(281)
+	.type(&#34;l&#34;)
+	.pause(101)
+	.type(&#34;e&#34;)
+	.pause(102)
+	.type(&#34; &#34;)
+	.pause(461)
+	.type(&#34;A&#34;)
+	.pause(323)
+	.type(&#34;y&#34;)
+	.pause(293)
+	.type(&#34;a&#34;)
+	.pause(120)
+	.type(&#34;l&#34;)
+	.pause(97)
+	.type(&#34;a&#34;)
+	.pause(538)
+	.type(&#34; &#34;)
+	.pause(318)
+	.type(&#34;|&#34;)
+	.pause(240)
+	.type(&#34; &#34;)
+	.pause(449)
+	.type(&#34;U&#34;)
+	.pause(384)
+	.type(&#34;n&#34;)
+	.pause(77)
+	.type(&#34;i&#34;)
+	.pause(601)
+	.type(&#34;v&#34;)
+	.pause(56)
+	.type(&#34;e&#34;)
+	.pause(129)
+	.type(&#34;r&#34;)
+	.pause(91)
+	.type(&#34;s&#34;)
+	.pause(118)
+	.type(&#34;i&#34;)
+	.pause(78)
+	.type(&#34;t&#34;)
+	.pause(148)
+	.type(&#34;y&#34;)
+	.pause(104)
+	.type(&#34; &#34;)
+	.pause(216)
+	.type(&#34;S&#34;)
+	.pause(223)
+	.type(&#34;t&#34;)
+	.pause(89)
+	.type(&#34;u&#34;)
+	.pause(90)
+	.type(&#34;d&#34;)
+	.pause(84)
+	.type(&#34;e&#34;)
+	.pause(2)
+	.type(&#34;w&#34;)
+	.pause(87)
+	.type(&#34;n&#34;)
+	.pause(85)
+	.type(&#34;t&#34;)
+	.pause(352)
+	.delete(1)
+	.pause(125)
+	.delete(1)
+	.pause(128)
+	.delete(1)
+	.pause(179)
+	.type(&#34;e&#34;)
+	.pause(72)
+	.type(&#34;n&#34;)
+	.pause(368)
+	.delete(1)
+	.pause(110)
+	.delete(1)
+	.pause(164)
+	.type(&#34;n&#34;)
+	.pause(76)
+	.type(&#34;t&#34;)
+	.go();
+
+document.querySelector(&#34;.namer&#34;).addEventListener(&#39;click&#39;, (e) =&gt; {
+  instance.reset();
+  instance.go();
+});
+&lt;/script&gt;</description>
     </item>
     <item>
       <title>Math Typesetting</title>
-      <link>//localhost:1313/posts/math-typesetting/</link>
+      <link>/posts/math-typesetting/</link>
       <pubDate>Tue, 11 Feb 2025 18:28:46 +0000</pubDate>
-      <guid>//localhost:1313/posts/math-typesetting/</guid>
+      <guid>/posts/math-typesetting/</guid>
       <description>A brief guide to setup KaTeX</description>
     </item>
   </channel>
