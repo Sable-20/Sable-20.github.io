@@ -2,22 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sable Ayala | University Student</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Sable Ayala | University Student</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Feb 2025 18:28:46 +0000</lastBuildDate>
-    <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>/about/</link>
+      <link>//localhost:1313/about/</link>
       <pubDate>Tue, 11 Feb 2025 18:28:46 +0000</pubDate>
-      <guid>/about/</guid>
+      <guid>//localhost:1313/about/</guid>
       <description>&lt;h1 style=&#34;text-align: center&#34; class=&#34;namer&#34;&gt;&lt;/h1&gt;
+&lt;h5 style=&#34;text-align: center&#34;&gt;
+  &lt;a href=&#34;mailto:sable262021@gmail.com&#34;&gt;sable262021@gmail.com&lt;/a&gt; &amp;emsp; | &amp;emsp; &lt;u&gt;+1 (203) 705-9266&lt;/u&gt;
+&lt;/h5&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
+&lt;h2 id=&#34;cv&#34;&gt;CV&lt;/h2&gt;
+&lt;!-- TODO: add CV here --&gt;
 &lt;script&gt;
 const instance = new TypeIt(&#34;.namer&#34;, { 
     lifeLike: false, 
-    speed: 0 
+    speed: 0,
+    afterComplete: function(instance) {
+      instance.destroy();
+    }
 })
 	.type(&#34;S&#34;)
 	.pause(199)
@@ -120,9 +130,9 @@ document.querySelector(&#34;.namer&#34;).addEventListener(&#39;click&#39;, (e) =
     </item>
     <item>
       <title>Math Typesetting</title>
-      <link>/posts/math-typesetting/</link>
+      <link>//localhost:1313/posts/math-typesetting/</link>
       <pubDate>Tue, 11 Feb 2025 18:28:46 +0000</pubDate>
-      <guid>/posts/math-typesetting/</guid>
+      <guid>//localhost:1313/posts/math-typesetting/</guid>
       <description>A brief guide to setup KaTeX</description>
     </item>
   </channel>

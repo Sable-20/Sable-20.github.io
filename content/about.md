@@ -7,16 +7,29 @@ draft = false
 
 [params]
 ShowReadingTime = false
-ShowToc = false
+ShowToc = true
 hideMeta = true
 +++
 
 <h1 style="text-align: center" class="namer"></h1>
+<h5 style="text-align: center">
+  <a href="mailto:sable262021@gmail.com">sable262021@gmail.com</a> &emsp; | &emsp; <u>+1 (203) 705-9266</u>
+</h5>
+
+## Education
+
+## Experience
+
+## CV
+<!-- TODO: add CV here -->
 
 <script>
 const instance = new TypeIt(".namer", { 
     lifeLike: false, 
-    speed: 0 
+    speed: 0,
+    afterComplete: function(instance) {
+      instance.destroy();
+    }
 })
 	.type("S")
 	.pause(199)
