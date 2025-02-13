@@ -9,6 +9,7 @@ pagerSize = 5
 
 [markup]
   [markup.goldmark]
+  renderer.unsafe = true
     [markup.goldmark.extensions]
       [markup.goldmark.extensions.passthrough]
         enable = true
@@ -20,6 +21,7 @@ pagerSize = 5
 ShowReadingTime = true
 defaultTheme = "auto"
 ShowShareButtons = true
+env = "production"
 
 [params.assets]
 disableHLJS = true
@@ -63,6 +65,12 @@ identifier = "example"
 name = "home"
 url = "/"
 weight = 10
+
+[[menu.main]]
+identifier = "about"
+name = "about me"
+url = "/about"
+weight = 30
 
 [outputFormats]
   [outputFormats.RSS]
