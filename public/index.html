@@ -175,6 +175,18 @@
   </div>
 </div>
 
+<script>
+    const instance = new TypeIt(".typer", {});
+    document.addEventListener("DOMContentLoaded", function() {
+      instance.go();
+    });
+
+    document.querySelector(".typer").addEventListener('click', (e) => {
+        instance.reset();
+        instance.go();
+    });
+</script>
+
     </main>
     
 <footer class="footer">
@@ -249,10 +261,4 @@
 </body>
 
 
-<script>
-  const instance = new TypeIt(".typer", {});
-  document.addEventListener("DOMContentLoaded", function() {
-    instance.go();
-  });
-</script>
 </html>

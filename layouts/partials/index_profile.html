@@ -56,3 +56,15 @@
   </div>
   {{- end}}
 </div>
+
+<script>
+    const instance = new TypeIt(".typer", {});
+    document.addEventListener("DOMContentLoaded", function() {
+      instance.go();
+    });
+
+    document.querySelector(".typer").addEventListener('click', (e) => {
+        instance.reset();
+        instance.go();
+    });
+</script>
