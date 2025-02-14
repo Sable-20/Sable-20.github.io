@@ -3,7 +3,7 @@ default_language = 'en-us'
 title = 'Sable Ayala | University Student'
 
 math = true
-theme = "PaperMod"
+theme = ["hugo-admonitions", "PaperMod"]
 [pagination]
 pagerSize = 5
 
