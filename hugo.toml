@@ -1,0 +1,64 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Sable Ayala'
+defaultcontentlanguage = 'en'
+noClasses = true
+
+[module]
+[[module.imports]]
+path = 'github.com/luizdepra/hugo-coder'
+
+theme = 'hugo-coder'
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)']]
+
+[pagination]
+pagerSize = 20
+
+[markup.highlight]
+style = 'catppuccin-frappe'
+
+[params]
+author = "Sable Ayala"
+info = "Full time student & Pharmacy technician"
+description = "My personal website and my resume site"
+keywords = "blog,resume,pharmacy,student"
+avatarurl = 'https://avatars.githubusercontent.com/u/72171476?v=4'
+
+since = '2025'
+
+enableTwemoji = true
+colorScheme = "auto"
+hidecolorschemetoggle = false
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/Sable-20"
+
+[[menu.main]]
+name = "Blog"
+weight = 1
+url = "posts/"
+[[menu.main]]
+name = "About"
+weight = 2
+url = "about/"
+[[menu.main]]
+name = "Resume"
+weight = 3
+url = "resume/"
