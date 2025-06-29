@@ -16,6 +16,8 @@ theme = 'hugo-coder'
 
 [markup]
 [markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 [markup.goldmark.extensions]
 [markup.goldmark.extensions.passthrough]
 enable = true
@@ -31,7 +33,7 @@ style = 'catppuccin-frappe'
 
 [params]
 author = "Sable Ayala"
-info = "Full time student & Pharmacy technician"
+info = "Student | Pharmacy Technician"
 description = "My personal website and my resume site"
 keywords = "blog,resume,pharmacy,student"
 avatarurl = 'https://avatars.githubusercontent.com/u/72171476?v=4'
@@ -53,6 +55,12 @@ name = "Github"
 icon = "fa-brands fa-github fa-2x"
 weight = 1
 url = "https://github.com/Sable-20"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 2
+url = "https://www.linkedin.com/in/sable-ayala/"
 
 [[menu.main]]
 name = "Blog"
