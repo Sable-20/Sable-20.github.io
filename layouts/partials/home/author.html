@@ -1,0 +1,10 @@
+<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+<h1>{{ .Site.Params.author }}</h1>
+<h2 id="info"></h2>
+<script>
+  new TypeIt("#info", {
+    waitUntilVisible: true,
+  })
+    .type("Student | Pharmacy Technician")
+    .go();
+</script>
