@@ -62,3 +62,9 @@ Basically, in short, if you're like me and you like giving yourself a hard time 
 Well if you're trying to make a statically hosted website like I am, which means it is essentially just some html and javascript with no calls to a server then it's pretty easy. You can either write it all by hand (which I don't recommend) or you can use a static site generator like I do. I am using [Hugo](https://gohugo.io/) which is written and is based in [Go](https://go.dev/) but there's a variety of options that allow you to write your website in all kinds of languages using all kinds of templating syntax. I just happen to be a fan of Hugo because I think it's nice and easy to start with and doesn't have a super hard learning curve even if you don't know Go. Although later I will write about Go because I think my people should have some sort of understanding of the language given how convenient it is to use for all kinds of tasks. (not to mention... it's quite fast)
 
 Your other option is to make a dynamic website using some frameworks (or again... by scratch if you really want) and hosting it on your own server or on a paid hosting service that will let you make whatever callbacks you want, it can lead to more advanced websites with more capabilities but it does require a little bit of a monetary investment if you want to keep it running. (Maybe one day I'll afford a website like that)
+
+## At the end of the day...
+
+At the end of the day it doesn't really matter what you pick or if you even chose to make a website at all, what's really important and that you're enjoying what you're doing and you're satisfied with the results. As for me I'm probably going to keep working on this website until I get bored and it slowly turns defunct like every other programming project in history.
+
+So thanks for taking the time to read the article and maybe I'll see you around.
