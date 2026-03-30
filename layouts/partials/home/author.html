@@ -1,10 +1,28 @@
 <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 <h1>{{ .Site.Params.author }}</h1>
 <h2 id="info"></h2>
-<script>
-  new TypeIt("#info", {
-    waitUntilVisible: true,
-  })
-    .type("Student | Pharmacy Technician")
-    .go();
-</script>
+{{ if eq .Site.Language.Lang "en" }}
+  <script>
+    new TypeIt("#info", {
+      waitUntilVisible: true,
+    })
+      .type("Student | Pharmacy Technician")
+      .go();
+  </script>
+{{ else if eq .Site.Language.Lang "ar" }}
+  <script>
+    new TypeIt("#info", {
+      waitUntilVisible: true,
+    })
+      .type("طالب | طاليب علم الحاسب")
+      .go();
+  </script>
+{{ else if eq .Site.Language.Lang "fr" }}
+  <script>
+    new TypeIt("#info", {
+      waitUntilVisible: true,
+    })
+      .type("étudiante ◊ étudiante de l'informatique")
+      .go();
+  </script>
+{{ end }}

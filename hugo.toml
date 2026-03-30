@@ -5,8 +5,8 @@ defaultcontentlanguage = 'en'
 noClasses = true
 
 [caches]
-  [caches.images]
-    dir = ":cacheDir/images"
+[caches.images]
+dir = ":cacheDir/images"
 
 [module]
 [[module.imports]]
@@ -34,7 +34,7 @@ style = 'catppuccin-frappe'
 [params]
 author = "Sable Ayala"
 info = "Student | Pharmacy Technician"
-description = "My personal website and my resume site"
+description = "My personal website and my resume"
 keywords = "blog,resume,pharmacy,student"
 avatarurl = 'https://avatars.githubusercontent.com/u/72171476?v=4'
 
@@ -62,15 +62,68 @@ icon = "fa-brands fa-linkedin fa-2x"
 weight = 2
 url = "https://www.linkedin.com/in/sable-ayala/"
 
-[[menu.main]]
+[languages.en]
+languageName = "🇺🇸"
+
+[[languages.en.menu.main]]
 name = "Blog"
 weight = 1
 url = "posts/"
-[[menu.main]]
+
+[[languages.en.menu.main]]
 name = "About"
 weight = 2
 url = "about/"
-[[menu.main]]
+
+[[languages.en.menu.main]]
 name = "Resume"
+weight = 3
+url = "resume/"
+
+[languages.fr]
+languageName = "🇫🇷"
+title = "Sable Ayala"
+
+[languages.fr.params]
+author = "Sable Ayala"
+info = "étudiante ◊ étudiante de l'informatique"
+description = "Mon site personnel et CV"
+
+[[languages.fr.menu.main]]
+name = "Blog"
+weight = 1
+url = "posts/"
+
+[[languages.fr.menu.main]]
+name = "À propos'"
+weight = 2
+url = "about/"
+
+[[languages.fr.menu.main]]
+name = "CV"
+weight = 3
+url = "resume/"
+
+[languages.ar]
+languageName = "🇵🇸"
+title = "Sable Ayala"
+
+[languages.ar.params]
+author = "Sable Ayala"
+info = "طالب إ طاليب علم الحاسب"
+description = "موقعي الشخصي وسيرتي الذاتية"
+
+[[languages.ar.menu.main]]
+name = "المدونة"
+weight = 1
+url = "posts/"
+
+[[languages.ar.menu.main]]
+name = "عني"
+weight = 2
+url = "about/"
+
+[[languages.ar.menu.main]]
+name = "سيرة ذاتية"
 weight = 3
 url = "resume/"
