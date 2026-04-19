@@ -104,26 +104,26 @@ name = "CV"
 weight = 3
 url = "resume/"
 
-[languages.ar]
-languageName = ":flag_ps:"
+[languages.de]
+languageName = ":flag_de:"
 title = "Sable Ayala"
 
-[languages.ar.params]
+[languages.de.params]
 author = "Sable Ayala"
-info = "طالب إ طاليب علم الحاسب"
-description = "موقعي الشخصي وسيرتي الذاتية"
+info = "Studentin und Pharmazeutisch-techniker"
+description = "Meine Webseite und CV"
 
-[[languages.ar.menu.main]]
-name = "المدونة"
+[[languages.de.menu.main]]
+name = "Beiträge"
 weight = 1
 url = "posts/"
 
-[[languages.ar.menu.main]]
-name = "عني"
+[[languages.de.menu.main]]
+name = "Über"
 weight = 2
 url = "about/"
 
-[[languages.ar.menu.main]]
-name = "سيرة ذاتية"
+[[languages.de.menu.main]]
+name = "Lebenslauf"
 weight = 3
 url = "resume/"
